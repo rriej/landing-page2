@@ -104,4 +104,60 @@ body {
     color: white;
 }
 
+/* CARDS SECTION */
+
+.cards-wrapper {
+    padding: 50px 0;
+    height: 600px;
+}
+
+.cards-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    
+    
+}
+
+.cards-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    
+    
+}
+
+.card {
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+}
+
+.card-subtext {
+    font-size: 18px;
+    color: black;
+}
+
+.card-image {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+/* QUOTE SECTION */
+
+
+
+
+
+
 
