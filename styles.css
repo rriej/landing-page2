@@ -108,7 +108,7 @@ body {
 
 .cards-wrapper {
     padding: 50px 0;
-    height: 600px;
+    height: 500px;
 }
 
 .cards-container {
@@ -158,7 +158,31 @@ body {
 /* QUOTE SECTION */
 
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 500px;
+}
 
+.quote {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.thor {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 
 
